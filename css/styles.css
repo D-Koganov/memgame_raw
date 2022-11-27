@@ -1,0 +1,55 @@
+:root {
+    --red-inactive: hsl(0, 100%, 20%);
+    --red-active: hsl(0, 100%, 60%);
+    --red: var(--red-inactive);
+    --green-inactive: hsl(125, 100%, 20%);
+    --green-active: hsl(125, 100%, 60%);
+    --green: var(--green-inactive);
+    --yellow-inactive: hsl(62, 100%, 20%);
+    --yellow-active: hsl(62, 100%, 60%);
+    --yellow: var(--yellow-inactive);
+    --blue-inactive: hsl(234, 100%, 30%);
+    --blue-active: hsl(234, 100%, 60%);
+    --blue: var(--blue-inactive);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.line {
+    width: 100vw;
+}
+
+.line > button {
+    display: inline-block;
+    width: 49vw;
+    height: 45vh;
+    font-size: 20vw;
+    font-weight: 100;
+    text-align: center;
+}
+
+#start_button {
+    font-size: 3rem;
+    font-weight: 100;
+    width: 100vw;
+    background-color: bisque;
+}
+
+#button0 {
+    background-color: var(--red);
+}
+
+#button1 {
+    background-color: var(--green);
+}
+
+#button2 {
+    background-color: var(--yellow);
+}
+
+#button3 {
+    background-color: var(--blue);
+}
